@@ -1,0 +1,46 @@
+:root {
+--primary-text-color: #757575;
+--primary-title-color: #212121;
+--primary-bg-color: #F5F5F5;
+--accent-color: #2196F3;
+}
+body {
+background-color: var( --primary-bg-color);
+color: var(--primary-text-color)
+}
+.list {
+    list-style: none;
+}
+/* стили header*/
+.logo {
+    color: #000000;
+}
+.logo .logo-color {
+color:var(--accent-color)
+}
+.site-nav .link {
+    color: var(--primary-title-color);
+}
+.site-nav .link:hover, .site-nav .link:focus {
+    color: var(--accent-color);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*страничка портфолио*/
+h1,
+h2,
+h3 {
+    color: var(--primary-title-color);
+}
