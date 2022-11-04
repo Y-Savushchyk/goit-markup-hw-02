@@ -3,6 +3,7 @@
 --primary-title-color: #212121;
 --primary-bg-color: #F5F5F5;
 --accent-color: #2196F3;
+--primary-white-color: #ffffff;
 }
 body {
 background-color: var( --primary-bg-color);
@@ -26,21 +27,26 @@ color:var(--accent-color)
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
+/*стили fotter*/
+footer {
+    background-color: #2F303A;
+    color:var(--primary-white-color);
+}
+footer .logo {
+color: var(--primary-white-color);}
+.address .link {
+    color: rgba(255, 255, 255, 0.6);
+}
 
 /*страничка портфолио*/
 h1,
 h2,
 h3 {
     color: var(--primary-title-color);
+}
+.project-nav .filter {
+    color: var(--primary-title-color);
+}
+.project-nav .filter:hover, .project-nav .filter:focus {
+color: var(--primary-white-color);
 }
