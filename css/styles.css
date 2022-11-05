@@ -1,52 +1,106 @@
 :root {
---primary-text-color: #757575;
---primary-title-color: #212121;
---primary-bg-color: #F5F5F5;
---accent-color: #2196F3;
---primary-white-color: #ffffff;
+  --primary-text-color: #757575;
+  --primary-title-color: #212121;
+  --primary-bg-color: #f5f5f5;
+  --accent-color: #2196f3;
+  --primary-white-color: #ffffff;
 }
 body {
-background-color: var( --primary-bg-color);
-color: var(--primary-text-color)
+  background-color: var(--primary-bg-color);
+  color: var(--primary-text-color);
 }
 .list {
-    list-style: none;
+  list-style: none;
 }
 /* стили header*/
 .logo {
-    color: #000000;
+  color: #000000;
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
 }
-.logo .logo-color {
-color:var(--accent-color)
+.logo .logo-accent {
+  color: var(--accent-color);
 }
 .site-nav .link {
-    color: var(--primary-title-color);
+  color: var(--primary-title-color);
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
-.site-nav .link:hover, .site-nav .link:focus {
-    color: var(--accent-color);
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
 }
-
+.contacts .link {
+  color: var(--primary-title-color);
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.contacts .link:hover,
+.contacts .link:focus {
+  color: var(--accent-color);
+}
 
 /*стили fotter*/
 footer {
-    background-color: #2F303A;
-    color:var(--primary-white-color);
+  background-color: #2f303a;
+  color: var(--primary-white-color);
 }
 footer .logo {
-color: var(--primary-white-color);}
+  color: var(--primary-white-color);
+}
+.address {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}
 .address .link {
-    color: rgba(255, 255, 255, 0.6);
+  color: rgba(255, 255, 255, 0.6);
 }
 
 /*страничка портфолио*/
 h1,
 h2,
 h3 {
-    color: var(--primary-title-color);
+  color: var(--primary-title-color);
 }
 .project-nav .filter {
-    color: var(--primary-title-color);
+  color: var(--primary-title-color);
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-.project-nav .filter:hover, .project-nav .filter:focus {
-color: var(--primary-white-color);
+.project-nav .filter:hover,
+.project-nav .filter:focus {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+.examples .title {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.examples p {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
 }
