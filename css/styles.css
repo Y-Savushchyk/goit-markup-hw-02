@@ -83,6 +83,7 @@ h3 {
   color: var(--primary-title-color);
 }
 .project-nav .filter {
+  font-family: "Roboto";
   color: var(--primary-title-color);
   background-color: var(--prymary-buttonbg-color);
   border-radius: 4px;
