@@ -21,6 +21,7 @@ body {
 /* стили header*/
 .logo {
   color: #000000;
+  text-decoration: none;
   font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
@@ -31,6 +32,7 @@ body {
   color: var(--accent-color);
 }
 .site-nav .link {
+  text-decoration: none;
   color: var(--primary-title-color);
   font-weight: 500;
   font-size: 14px;
@@ -42,6 +44,7 @@ body {
   color: var(--accent-color);
 }
 .contacts .link {
+  text-decoration: none;
   color: var(--primary-title-color);
   font-weight: 500;
   font-size: 14px;
@@ -69,6 +72,7 @@ footer .logo {
   letter-spacing: 0.03em;
 }
 .address .link {
+  text-decoration: none;
   color: rgba(255, 255, 255, 0.6);
 }
 .address .link:hover,
