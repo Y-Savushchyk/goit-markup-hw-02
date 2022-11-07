@@ -113,10 +113,10 @@ h3 {
 }
 /*главная страница*/
 /*банер*/
-.baner {
+.hero {
   background-color: var(--ptimary-dark-bg-color);
 }
-.baner .title {
+.hero .title {
   color: var(--primary-white-color);
   font-style: normal;
   font-weight: 900;
